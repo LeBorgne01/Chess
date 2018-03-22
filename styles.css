@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: block;
+    text-align: center;
+}
+
+#cimeteryWhite{
+    display: inline-block;
+    width: 30%;
+}
+
+#cimeteryWhite #listDeadWhite{
+    list-style: none;
+}
+
+#chessboard{
+    display: inline-block;
+    width: 20%;
+}
+
+#chessboard table{
+    border: solid 1px black;
+}
+
+#chessboard td{
+    width: 37px;
+    height: 37px;
+}
+
+#chessboard .white{
+    background-color: aliceblue;
+}
+
+#chessboard .black{
+    background-color: #404040;
+    color: white;
+}
+
+#chessboard .red{
+    background-color: red;
+}
+
+#cimeteryBlack{
+    display: inline-block;
+    width: 30%;
+}
+
+#cimeteryBlack #listDeadBlack{
+    list-style: none;
+}
+
